@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'sans-serif';
+}
+
+body {
+    margin: 10px;
+    background: #f1f1f1;
+}
+
+h1 {
+    float: left;
+    width: 95%;
+    font-size: 22px;
+    background: #209e91;
+    padding: 10px 12px;
+    color: #fff;
+}
+
+h2 {
+    float: left;
+    width: 95%;
+    font-size: 20px;
+    background: #209e91;
+    padding: 10px 12px;
+    color: #fff;
+}
+
+h3 {
+    float: left;
+    width: 95%;
+    font-size: 16px;
+    padding: 10px 12px;
+    color: #0f0f0f;
+}
+
+input {
+    display: block;
+    margin: 10px;
+}
+
+.inputResult {}
+
+.inputResult label {
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+#result {
+    float: left;
+    margin-top: 10px;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: capitalize;
+}

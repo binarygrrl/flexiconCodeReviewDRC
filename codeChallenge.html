@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Triangle Classification </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Coding Challenge by Amber Dunn for DRC</h1>
+        <h2>Triangle Classification By Side Lengths</h2>
+        <h3>Enter 3 Side lengths to determine classification of triangle</h3>
+
+        <input type="number" name="side1" id="a" placeholder="Side 1" />
+        <input type="number" name="side2" id="b" placeholder="Side 2" />
+        <input type="number" name="side3" id="c" placeholder="Side 3" />
+        <input type="submit" onclick="classifyTriangle()" />
+
+        <div class="inputResult">
+            <label>Type of Triangle or Determination:</label>
+            <span id="result"></span>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
